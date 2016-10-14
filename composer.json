@@ -1,0 +1,19 @@
+{
+    "name": "lucong/php-aliyun-oss",
+    "authors": [
+        {
+            "name": "lucong",
+            "email": "332553882@qq.com"
+        }
+    ],
+    "license": "MIT",
+    "version": "1.0.0",
+    "require": {
+        "aliyuncs/oss-sdk-php": "^2.0"
+    },
+    "autoload" : {
+	    "psr-4" : {
+	      "niklaslu\\" : "src"
+	    }
+	  }
+}
